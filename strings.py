@@ -1,37 +1,36 @@
-# my_string = "venkata sathwick sivvala"
-# print(my_string)
+# print("Hello")
+# print('Hello')
 
-# print("Capitalize: " + str.capitalize(my_string))
-# # print("encode: " + str.encode(my_string))
-# nBikes = 1
-# nCars = 0
-# print("Sathwick has {} bikes and {} cars".format(nBikes, nCars))
+# name='Sathwick'
+# print(name)
 
-# animal = "dog"
-# action = "bite"
-# print("Does your {} {}?".format(animal, action))
+# #Multiline Strings-Triple quotes will let us do it
+# googleNews = """Google News is a news aggregator service developed by Google. 
+#               It presents a continuous flow of links to articles organized from thousands of publishers and magazines. 
+#               Google News is available as an app on Android, iOS, and the Web."""
+# print(googleNews)
 
-# details = "Sathwick lived in {} for {} years"
-# city = "Pune"
-# noOfYears = 5.5
-# print(details.format(city, noOfYears))
+#Three single quotes also works
+# sampleText = '''Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua.'''
+# print(sampleText)
 
-# name = "Sathwick"
-# print(name.endswith('i'))
-# print(name.startswith('S'))
+# words = "hello"
+# print(words[0])
+# print(words[1])
+# for x in words:
+#     print(x)
+# for c in "world":
+#     print(c)
 
-# txt = "This is a Sample String"
-# print(txt.casefold())
+fullname = 'Venkata Sathwick Sivvala'
+print('length of ' + str(fullname) + ' is ' + str(len(fullname)))
 
-# print("No of a's in txt: ", txt.count('a'))
-
-# print("Enoded result: ", txt.encode())
-
-txt = "My name is Ståle"
-
-print(txt.encode(encoding="ascii",errors="backslashreplace"))
-print(txt.encode(encoding="ascii",errors="ignore"))
-print(txt.encode(encoding="ascii",errors="namereplace"))
-print(txt.encode(encoding="ascii",errors="replace"))
-print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
-# print(txt.encode(encoding="ascii",errors="strict"))
+txt = 'the best things in life is free'
+print('free' in txt)
+if 'best' in txt:
+    print('best is present in ' + txt)
+if 'hello' not in txt:
+    print('hello is not present in ' + txt)

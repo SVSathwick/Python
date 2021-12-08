@@ -1,0 +1,10 @@
+firstName = 'Venkata Sathwick'
+print(firstName[2:5])
+print(firstName[2:-1])
+print(firstName[2:-2])
+print(firstName[0:len(firstName)])
+print(firstName[:len(firstName)])
+print(firstName[0:len(firstName)])
+print(firstName[len(firstName)-1:len(firstName)])
+print(firstName[2:])
+print(firstName[-5:-1])
